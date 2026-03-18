@@ -12,11 +12,22 @@
   <input 
    class="js-expense-input expense-input"
    type="number">
+   <select class="js-category">
+   <option value="кафе">Кафе</option>
+   <option value="ресторан">Ресторан</option>
+   <option value="транспорт">Транспорт</option>
+   <option value="аптека">Аптека</option>
+   <option value="развлечения">Развлечения</option>
+  </select>
+
+
+<button class="js-clear-button">Сбросить</button>
+<button class="js-change-limit">Изменить лимит</button>
   <button class="js-expense-button expense-button">Добавить</button>
 
-  <p>Лимит: <span class="js-limit">10000</span> руб.</p>
-  <p>Сумма: <span class="js-sum">0</span> руб.</p>
-  <p>Статус: <span class="js-status">все хорошо</span></p>
+  <p>Лимит: <span class="js-limit"></span> руб.</p>
+  <p>Сумма: <span class="js-sum"></span> руб.</p>
+  <p>Статус: <span class="js-status status"></span></p>
 
   <h2>История</h2>
   <div class="js-expense-history expense-history">
